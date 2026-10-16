@@ -707,7 +707,7 @@ function initContactCalculator() {
       }
 
       // Generate WhatsApp Link
-      const message = `Halo Raditya (Radit.DKV), saya *${name}* tertarik untuk berdiskusi tentang:\n\n` +
+      const message = `Halo Hafiz Al Razi (Radit.DKV), saya *${name}* tertarik untuk berdiskusi tentang:\n\n` +
                       `📌 *Kategori Proyek:* ${projectType}\n` +
                       `💰 *Estimasi Budget:* ${budget}\n` +
                       `📝 *Kebutuhan Desain:* ${notes}\n\n` +
