@@ -708,20 +708,20 @@ h1, h2, h3, h4, .font-display {
   font-weight: 500;
 }
 
-/* Hero Visual / assets/images/18dd3363eaf793c4f87d0c9be88d4c39.jpg Card */
+/* Hero Visual / Avatar Card */
 .hero-visual {
   position: relative;
   display: flex;
   justify-content: center;
 }
 
-.assets/images/18dd3363eaf793c4f87d0c9be88d4c39.jpg-card-wrapper {
+.Avatar-card-wrapper {
   position: relative;
   width: 100%;
   max-width: 440px;
 }
 
-.assets/images/18dd3363eaf793c4f87d0c9be88d4c39.jpg-glow-ring {
+.Avatar-glow-ring {
   position: absolute;
   inset: -15px;
   border-radius: var(--radius-xl);
@@ -737,7 +737,7 @@ h1, h2, h3, h4, .font-display {
   100% { opacity: 0.7; transform: scale(1.02); }
 }
 
-.assets/images/18dd3363eaf793c4f87d0c9be88d4c39.jpg-card {
+.Avatar-card {
   position: relative;
   z-index: 1;
   background: var(--bg-card);
@@ -748,25 +748,25 @@ h1, h2, h3, h4, .font-display {
   backdrop-filter: blur(20px);
 }
 
-.assets/images/18dd3363eaf793c4f87d0c9be88d4c39.jpg-img-box {
+.Avatar-img-box {
   position: relative;
   width: 100%;
   aspect-ratio: 1/1;
   overflow: hidden;
 }
 
-.assets/images/18dd3363eaf793c4f87d0c9be88d4c39.jpg-img-box img {
+.Avatar-img-box img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-.assets/images/18dd3363eaf793c4f87d0c9be88d4c39.jpg-card:hover .assets/images/18dd3363eaf793c4f87d0c9be88d4c39.jpg-img-box img {
+.Avatar-card:hover .Avatar-img-box img {
   transform: scale(1.04);
 }
 
-.assets/images/18dd3363eaf793c4f87d0c9be88d4c39.jpg-overlay-tag {
+.Avatar-overlay-tag {
   position: absolute;
   top: 16px;
   right: 16px;
@@ -783,7 +783,7 @@ h1, h2, h3, h4, .font-display {
   gap: 6px;
 }
 
-.assets/images/18dd3363eaf793c4f87d0c9be88d4c39.jpg-bottom-info {
+.Avatar-bottom-info {
   padding: 20px;
   background: linear-gradient(180deg, rgba(17, 21, 28, 0.8) 0%, rgba(10, 12, 16, 0.95) 100%);
   display: flex;
@@ -1831,7 +1831,7 @@ h1, h2, h3, h4, .font-display {
   gap: 14px;
 }
 
-.author-assets/images/18dd3363eaf793c4f87d0c9be88d4c39.jpg-circle {
+.author-Avatar-circle {
   width: 46px;
   height: 46px;
   border-radius: 50%;
