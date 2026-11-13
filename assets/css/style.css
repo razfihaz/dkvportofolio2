@@ -708,20 +708,20 @@ h1, h2, h3, h4, .font-display {
   font-weight: 500;
 }
 
-/* Hero Visual / Avatar Card */
+/* Hero Visual / avatar Card */
 .hero-visual {
   position: relative;
   display: flex;
   justify-content: center;
 }
 
-.Avatar-card-wrapper {
+.avatar-card-wrapper {
   position: relative;
   width: 100%;
   max-width: 440px;
 }
 
-.Avatar-glow-ring {
+.avatar-glow-ring {
   position: absolute;
   inset: -15px;
   border-radius: var(--radius-xl);
@@ -737,7 +737,7 @@ h1, h2, h3, h4, .font-display {
   100% { opacity: 0.7; transform: scale(1.02); }
 }
 
-.Avatar-card {
+.avatar-card {
   position: relative;
   z-index: 1;
   background: var(--bg-card);
@@ -748,25 +748,25 @@ h1, h2, h3, h4, .font-display {
   backdrop-filter: blur(20px);
 }
 
-.Avatar-img-box {
+.avatar-img-box {
   position: relative;
   width: 100%;
   aspect-ratio: 1/1;
   overflow: hidden;
 }
 
-.Avatar-img-box img {
+.avatar-img-box img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-.Avatar-card:hover .Avatar-img-box img {
+.avatar-card:hover .avatar-img-box img {
   transform: scale(1.04);
 }
 
-.Avatar-overlay-tag {
+.avatar-overlay-tag {
   position: absolute;
   top: 16px;
   right: 16px;
@@ -783,7 +783,7 @@ h1, h2, h3, h4, .font-display {
   gap: 6px;
 }
 
-.Avatar-bottom-info {
+.avatar-bottom-info {
   padding: 20px;
   background: linear-gradient(180deg, rgba(17, 21, 28, 0.8) 0%, rgba(10, 12, 16, 0.95) 100%);
   display: flex;
@@ -1831,7 +1831,7 @@ h1, h2, h3, h4, .font-display {
   gap: 14px;
 }
 
-.author-Avatar-circle {
+.author-avatar-circle {
   width: 46px;
   height: 46px;
   border-radius: 50%;
